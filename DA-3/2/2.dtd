@@ -1,0 +1,11 @@
+<!ELEMENT food_order (customer, items)>
+<!ELEMENT customer (name, address, email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item (name, quantity, price)>
+<!ATTLIST item id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="food_order.xsl"?>
+<food_order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="food_order.xsd">
+    <customer>
+        <name>John Doe</name>
+        <address>123 Main St, City, Country</address>
+        <email>john@example.com</email>
+    </customer>
+    <items>
+        <item id="1">
+            <name>Chicken Burger</name>
+            <quantity>2</quantity>
+            <price>250</price>
+        </item>
+        <item id="2">
+            <name>Pizza</name>
+            <quantity>1</quantity>
+            <price>400</price>
+        </item>
+        <item id="3">
+            <name>Biriyani</name>
+            <quantity>1</quantity>
+            <price>700</price>
+        </item>
+        <item id="4">
+            <name>Meals</name>
+            <quantity>3</quantity>
+            <price>1000</price>
+        </item>
+    </items>
+</food_order>
